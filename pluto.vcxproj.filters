@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="util\time_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\stl_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\format_print.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\string_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\stl_util_test.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\string_util_test.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="base\timer.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\timer_test.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="net\epoll_test.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\epoll.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="util\type_traits_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\type_traits_util_test.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\epoll.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\time_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\format_print.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stl_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\string_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type_traits_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\printable.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleton.h">
+      <Filter>property</Filter>
+    </ClInclude>
+    <ClInclude Include="include\non_copyable_nor_movable.h">
+      <Filter>property</Filter>
+    </ClInclude>
+    <ClInclude Include="include\flat_map.h">
+      <Filter>pmr\container</Filter>
+    </ClInclude>
+    <ClInclude Include="include\linear_allocator.h">
+      <Filter>pmr\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\define.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{a1317d22-d1d9-4221-b8d5-80f0332d5341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{60862634-f7aa-425d-8147-c23e5ce73834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{fcc7814b-7953-47c9-932c-40789506f026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="property">
+      <UniqueIdentifier>{4973020f-f407-420f-ad72-f15116ca6141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{99de74a6-e874-4828-81df-84fa9f78a7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pmr">
+      <UniqueIdentifier>{fd971f3d-46fd-4cdf-8f92-b40b5c76f18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pmr\container">
+      <UniqueIdentifier>{ddcbae37-5582-42d1-a26e-17447db9910a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pmr\memory">
+      <UniqueIdentifier>{1e820530-dede-492e-abc7-d2f720accfef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
